@@ -398,5 +398,5 @@ if ($resposta -eq "S" -or $resposta -eq "s") {
     Write-Host ""
 }
 
-Write-Host "Pressione qualquer tecla para ferir..." -ForegroundColor Gray
+Write-Host "Pressione qualquer tecla para fechar..." -ForegroundColor Gray
 $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
